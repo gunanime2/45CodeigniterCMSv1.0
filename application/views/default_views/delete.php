@@ -1,0 +1,1 @@
+<h2>Delete View</h2>

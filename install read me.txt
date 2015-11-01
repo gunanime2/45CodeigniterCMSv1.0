@@ -1,0 +1,20 @@
+These are the following setting you have to change before 
+starting this install.
+
+-create your database first
+
+-htaccess
+  - rewriteBase /yourdomain.com/
+-base_url variable in the script.js file
+-application/config/config file
+ - index_page = '';
+ - base_url = 'www.yourdomain.com/';
+ - set your own encryption_key line227
+-database settings in application/config/database file
+ -set the database you created
+ -the hostname
+ -the username in the server
+ -the password
+-routes
+ - $route['default_controller'] = 'install_controller';
+   //set to 'main_controller' after install
